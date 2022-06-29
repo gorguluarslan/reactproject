@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(246, 246, 105);
+}
+.section {
+ height: auto;
+ width: 1200px;
+ margin: 0 auto;
+ background-color: bisque;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+
+ &__card{
+    border: 2px solid black;
+    height: 100%;
+    margin: 0 auto;
+    
+    
+&__title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: azure;
+span {
+    color: rgb(169, 12, 12);
+    font-size: 1.1rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+
+}
+
+}
+&__student{
+    background-color: rgb(112, 199, 170);
+    font-family: 'Courier New', Courier, monospace;
+    padding: 2rem;
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+}
+&__assistant{
+    background-color: rgb(58, 164, 207);
+    font-family: 'Courier New', Courier, monospace;
+    padding: 2rem;
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+}
+
+}
+
+}
