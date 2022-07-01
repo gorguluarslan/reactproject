@@ -9,7 +9,7 @@ const Assistant = (props) => {
       {DATA.filter(
         (member) => member.group === props.group && member.assistant
       ).map((member) => (
-        <ul>
+        <ul key={member.id}>
           <li>{member.id}</li>
           <li>{member.name}</li>
           <li>{member.assistant ? "+" : "-"}</li>

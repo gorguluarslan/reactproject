@@ -13,7 +13,7 @@ const Wrapper = () => {
   return (
     <div className={style.section}>
       {Object.keys(groupName).map((group) => (
-        <div className={style.section__card}>
+        <div key={group} className={style.section__card}>
           <div className={style.section__card__title}>
             <span>{group}</span>
           </div>
